@@ -1,4 +1,4 @@
-const { default: Layout } = require('@/components/layout');
+const { default: Layout } = require('@/components/layout/layout');
 
 const About = () => {
   return <Layout></Layout>;

@@ -1,7 +1,7 @@
 const Layout = ({ children }) => {
   return (
     <main
-      className={`flex min-h-screen flex-col items-center justify-between p-24`}
+      className={`min-w-max min-h-screen items-center justify-between px-24`}
     >
       {children}
     </main>
