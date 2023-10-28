@@ -3,12 +3,8 @@ import Image from 'next/image';
 const SiteNavbar = () => {
   const data = [
     {
-      text: 'Home',
-      href: '#',
-    },
-    {
       text: 'Contact',
-      href: '#contact',
+      href: 'mailto:huntsvillemusicians@gmail.com',
     },
   ];
   return (
