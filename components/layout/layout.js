@@ -1,8 +1,12 @@
+import SiteNavbar from '@/components/navbar';
+import { FullWidthContainer } from '@/components/layout/containers';
+
 const Layout = ({ children }) => {
   return (
-    <main
-      className={`min-w-max min-h-screen items-center justify-between px-24`}
-    >
+    <main className={`min-w-max min-h-screen`}>
+      <FullWidthContainer className="bg-white">
+        <SiteNavbar />
+      </FullWidthContainer>
       {children}
     </main>
   );

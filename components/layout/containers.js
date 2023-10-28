@@ -1,4 +1,4 @@
-export const FullWidthContainer = ({ className, bgPattern, children }) => {
+export const FullWidthContainer = ({ className = '', bgPattern, children }) => {
   return (
     <div
       className={
@@ -7,11 +7,7 @@ export const FullWidthContainer = ({ className, bgPattern, children }) => {
         }` + className
       }
     >
-      <div
-        className={`container max-w-screen-xl mx-auto justify-center items-center ${className}`}
-      >
-        {children}
-      </div>
+      <div className={`container mx-auto ${className}`}>{children}</div>
     </div>
   );
 };
