@@ -13,9 +13,6 @@ export default function Home() {
       <Splash />
       <About id='about' />
       <Join id='join' />
-      <h2>Donate</h2>
-      We are a registered charity! Maybe.
-      <Newsletter />
       <h2>Buy tickets</h2>
       You can buy tickets for our upcoming concerts here.
       <h2>Contact</h2>
