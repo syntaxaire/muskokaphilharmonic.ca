@@ -14,8 +14,8 @@ const SiteNavbar = () => {
           <Image
             src="/logo.png"
             alt="Muskoka Philharmonic Orchestra logo"
-            width="208"
-            height="587"
+            width="412"
+            height="260"
           />
         </a>
         <button
