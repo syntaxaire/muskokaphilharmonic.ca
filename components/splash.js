@@ -15,6 +15,8 @@ export const Splash = () => {
             <br />
             <span className="underline">Sunday, March 10, 2024</span>{' '}
             (afternoon)
+            <br />
+            Locations to be announced.
           </p>
         </div>
       </div>
