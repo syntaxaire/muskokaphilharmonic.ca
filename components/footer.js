@@ -18,12 +18,14 @@ const Footer = () => {
         </span>
         <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 sm:mt-0">
           <li>
+            You can contact us at{' '}
             <a
               href="mailto:huntsvillemusicians@gmail.com"
               className="hover:underline"
             >
-              Contact
+              huntsvillemusicians@gmail.com
             </a>
+            .
           </li>
         </ul>
       </div>
