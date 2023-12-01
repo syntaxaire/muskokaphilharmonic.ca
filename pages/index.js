@@ -1,7 +1,5 @@
-import Footer from '@/components/footer';
-import { Splash } from '@/components/splash';
+import { HomeSplash } from '@/components/splash';
 import { Newsletter } from '@/components/newsletter';
-import { About } from '@/components/about';
 import Join from '@/components/join';
 import Layout from '@/components/layout/layout';
 import { FullWidthContainer } from '@/components/layout/containers';
@@ -11,11 +9,16 @@ import Upcoming from '@/components/upcoming';
 export default function Home() {
   return (
     <Layout>
-      <FullWidthContainer className="bg-white text-black">
-        <Splash />
+      <FullWidthContainer className="text-mpo-bg-dark bg-white">
+        <HomeSplash />
+      </FullWidthContainer>
+
+      <FullWidthContainer className="text-mpo-bg-dark bg-white">
         <Upcoming />
+      </FullWidthContainer>
+
+      <FullWidthContainer className="text-mpo-bg-dark bg-white">
         <Testimonials />
-        <Footer />
       </FullWidthContainer>
     </Layout>
   );

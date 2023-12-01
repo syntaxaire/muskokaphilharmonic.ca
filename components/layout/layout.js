@@ -1,4 +1,5 @@
 import SiteNavbar from '@/components/navbar';
+import Footer from '@/components/footer';
 import { FullWidthContainer } from '@/components/layout/containers';
 
 const Layout = ({ children }) => {
@@ -8,6 +9,8 @@ const Layout = ({ children }) => {
         <SiteNavbar />
       </FullWidthContainer>
       {children}
+
+      <Footer />
     </main>
   );
 };
