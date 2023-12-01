@@ -1,13 +1,13 @@
 export const About = ({ id }) => {
   return (
-    <section className='bg-white dark:bg-gray-900' id={id}>
-      <div className='py-8 px-4 mx-auto max-w-screen-lg lg:py-16 lg:px-6'>
-        <div className='max-w-screen-lg sm:text-lg'>
-          <h2 className='mb-4'>About the Muskoka Philharmonic Orchestra</h2>
-          <p className='mb-4 font-light'>
+    <section className="bg-white" id={id}>
+      <div className="py-8 px-4 mx-auto max-w-screen-lg lg:py-16 lg:px-6">
+        <div className="max-w-screen-lg sm:text-lg">
+          <h2 className="mb-4">About the Muskoka Philharmonic Orchestra</h2>
+          <p className="mb-4 font-light">
             The Muskoka Philharmonic Orchestra is based in Muskoka, Ontario.
           </p>
-          <p className='mb-4 text-normal'>
+          <p className="mb-4 text-normal">
             We perform a wide variety of music, and we are looking for new
             members. We rehearse in Huntsville, and perform each year in various
             locations around Muskoka.
@@ -29,7 +29,7 @@ export const About = ({ id }) => {
           <br />
           <br />
           <h4>Artistic Director</h4>
-          <p className='mb-4 text-normal'>
+          <p className="mb-4 text-normal">
             Artistic Director, Alana Nuedling, grew up in the Muskoka area and
             has been active in the music and arts community from an early age.
             She has a Performance Diploma (Cambrian College), an Honours BA in
