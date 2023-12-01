@@ -10,7 +10,7 @@ const SiteNavbar = () => {
   return (
     <nav className="bg-white border-gray-200">
       <div className="flex flex-wrap items-center justify-between p-4">
-        <a href="https://flowbite.com/" className="flex items-center">
+        <a href="https://muskokaphilharmonic.ca/" className="flex items-center">
           <Image
             src="/logo.png"
             alt="Muskoka Philharmonic Orchestra logo"
