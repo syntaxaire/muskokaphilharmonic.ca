@@ -3,6 +3,10 @@ import Image from 'next/image';
 const SiteNavbar = () => {
   const data = [
     {
+      text: 'About the orchestra',
+      href: '/about',
+    },
+    {
       text: 'Contact',
       href: 'mailto:huntsvillemusicians@gmail.com',
     },
@@ -21,7 +25,7 @@ const SiteNavbar = () => {
         <button
           data-collapse-toggle="navbar-default"
           type="button"
-          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-mpo-semidark rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
           aria-controls="navbar-default"
           aria-expanded="false"
         >
@@ -43,10 +47,13 @@ const SiteNavbar = () => {
           </svg>
         </button>
         <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-          <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border text-gray-900 md:hover:text-blue-700 border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white">
+          <ul className="font-bold flex flex-col p-4 md:p-0 mt-4 border text-mpo-semidark border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-16 md:mt-0 md:border-0 md:bg-white">
             {data.map((menuItem, index) => (
               <li key={index}>
-                <a href={menuItem.href} className="">
+                <a
+                  href={menuItem.href}
+                  className="md:hover:text-mpo-accent text-2xl"
+                >
                   {menuItem.text}
                 </a>
               </li>
