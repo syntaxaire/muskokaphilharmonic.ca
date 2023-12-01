@@ -1,13 +1,14 @@
 export const Splash = () => {
   return (
-    <section className="bg-[url('/concert.jpg')] bg-no-repeat bg-cover bg-center bg-gray-700 bg-blend-multiply ">
-      <div className="relative py-8 px-4 mx-auto max-w-screen-lg text-white lg:py-16 z-1">
-        <div className="mb-6 max-w-screen-lg lg:mb-0">
-          <h1 className="mb-4 tracking-tight text-4xl md:text-5xl lg:text-5xl">
+    <section className="min-h-[800px] bg-[url('/events/2023-11-26/concert_photo.jpg')] bg-no-repeat bg-cover bg-center bg-gray-400 bg-blend-multiply">
+      <div className="relative py-8 px-4 mx-auto max-w-screen-xl text-white lg:py-16 z-1">
+        <div className="mb-6 lg:mb-0 text-right tracking-tight">
+          <p className="[text-shadow:_2px_2px_0_rgb(0_0_0_/_40%)] mt-[300px] mb-4 text-4xl md:text-5xl lg:text-5xl">
             Bringing the joy of <br />
-            <span className="text-mpo-accent">live orchestral music</span>
-            <br /> to Muskoka!
-          </h1>
+            live orchestral music
+            <br />
+            to Muskoka!
+          </p>
         </div>
       </div>
     </section>
