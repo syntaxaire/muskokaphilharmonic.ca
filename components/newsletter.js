@@ -6,7 +6,7 @@ export const Newsletter = () => {
       <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-12 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div className="mr-auto place-self-center lg:col-span-7 xl:col-span-8">
           <h2>Sign up for our newsletter</h2>
-          <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl">
+          <p className="max-w-2xl mb-6 font-light text-mpo-semidark lg:mb-8 md:text-lg lg:text-xl">
             Get notified of upcoming MPO performances
           </p>
           <form action="#" className="">
@@ -14,13 +14,13 @@ export const Newsletter = () => {
               <div className="relative w-auto mr-3">
                 <label
                   for="member_email"
-                  className="hidden mb-2 text-sm font-medium text-gray-900"
+                  className="hidden mb-2 text-sm font-medium text-mpo-semidark"
                 >
                   Email address
                 </label>
                 <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
                   <svg
-                    className="w-5 h-5 text-gray-500"
+                    className="w-5 h-5 text-mpo-semidark"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +30,7 @@ export const Newsletter = () => {
                   </svg>
                 </div>
                 <input
-                  className="block md:w-96 w-full p-3 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-primary-500 focus:border-primary-500"
+                  className="block md:w-96 w-full p-3 pl-10 text-sm text-mpo-semidark border border-gray-300 rounded-lg bg-gray-50 focus:ring-primary-500 focus:border-primary-500"
                   placeholder="Enter your email"
                   type="email"
                   name="member[email]"
@@ -48,7 +48,7 @@ export const Newsletter = () => {
                 ></input>
               </div>
             </div>
-            <div className="text-sm text-left text-gray-500">
+            <div className="text-sm text-left text-mpo-semidark">
               Your address will not be used for any other purpose.
             </div>
           </form>
