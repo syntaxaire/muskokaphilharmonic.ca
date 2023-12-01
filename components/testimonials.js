@@ -20,7 +20,7 @@ const Testimonials = () => {
             <p class="mb-8 font-light text-gray-500 lg:mb-16">
               Feedback from our first and second concerts
               <br />
-              on and November 26, 2023.
+              on June 11 and November 26, 2023.
             </p>
           </div>
           <div class="grid gap-8 lg:grid-cols-3">
