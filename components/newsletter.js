@@ -13,7 +13,7 @@ export const Newsletter = () => {
             <div className="flex items-center mb-3">
               <div className="relative w-auto mr-3">
                 <label
-                  for="member_email"
+                  htmlFor="member_email"
                   className="hidden mb-2 text-sm font-medium text-mpo-semidark"
                 >
                   Email address

@@ -1,8 +1,8 @@
 const Upcoming = () => {
   return (
     <>
-      <div class="pt-8 mx-auto max-w-screen-md text-center">
-        <h2 class="my-4 text-4xl tracking-tight font-extrabold">
+      <div className="pt-8 mx-auto max-w-screen-md text-center">
+        <h2 className="my-4 text-4xl tracking-tight font-extrabold">
           Upcoming concerts
         </h2>
       </div>

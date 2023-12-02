@@ -1,6 +1,4 @@
 import { HomeSplash } from '@/components/splash';
-import { Newsletter } from '@/components/newsletter';
-import Join from '@/components/join';
 import Layout from '@/components/layout/layout';
 import { FullWidthContainer } from '@/components/layout/containers';
 import Testimonials from '@/components/testimonials';
