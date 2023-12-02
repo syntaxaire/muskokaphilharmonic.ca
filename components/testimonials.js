@@ -1,8 +1,18 @@
 const TestimonialBox = ({ text }) => {
   return (
-    <p className="my-4 p-2 bg-gray-50 rounded text-sm">&ldquo;{text}&rdquo;</p>
+    <div className="p-2 bg-gray-50 rounded text-sm">&ldquo;{text}&rdquo;
+    </div>
   );
 };
+const TestimonialData = [
+  'My ears are still reminding me of the enchanting music I heard Sunday afternoon.\nTo see and hear the audience’s enthusiasm was an absolute joy.',
+  'Everyone was truly exceptional.',
+  'Bravo to the Muskoka Philharmonic orchestra for a wonderful performance today.',
+  'The excitement, the passion for beautiful music, and the sense of community came shining through for all to experience.',
+  'My wife and three year old had a blast. As did I.',
+  'It was soooo fabulous. Couldn’t be more proud of the performance, the turnout, and how everything came together so well.',
+  'Congratulations on a great concert.',
+];
 
 const Testimonials = () => {
   return (
@@ -18,30 +28,18 @@ const Testimonials = () => {
           <span className="text-mpo-accent">November 26</span>, 2023:
         </p>
       </div>
-      <div className="mx-auto grid gap-8 lg:grid-cols-3">
-        <div className="space-y-6">
-          <TestimonialBox text="My ears are still reminding me of the enchanting music I heard Sunday afternoon. To see and hear the audience’s enthusiasm was an absolute joy.&rdquo;" />
-          <TestimonialBox text="Everyone was truly exceptional." />
-          <TestimonialBox text="Bravo to the Muskoka Philharmonic orchestra for a wonderful performance today.&rdquo;" />
-        </div>
-        <div className="space-y-6">
-          <TestimonialBox text="The excitement, the passion for beautiful music, and the sense of community came shining through for all to experience.&rdquo;" />
-          <TestimonialBox text="My wife and three year old had a blast. As did I." />
-        </div>
-        <div className="space-y-6">
-          <TestimonialBox
-            text="It was soooo fabulous. Couldn’t be more proud of the
-                  performance, the turnout, and how everything came together so
-                  well."
-          />
-          <TestimonialBox text="Congratulations on a great concert." />
+
+      <div className="px-4 mx-auto lg:px-6">
+        <div className="mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+          {TestimonialData.map((text) => (
+            <TestimonialBox text={text} key={text} />
+          ))}
         </div>
       </div>
-      <div className="pt-8 mx-auto text-center">
-        <h2 className="my-4 text-4xl tracking-tight font-extrabold">
-          A huge thank you to all supporters in our community so far!
-        </h2>
-      </div>
+
+      <p className="pt-8 mx-auto text-center my-4 text-4xl tracking-tight font-extrabold max-w-sm">
+        A huge thank you to all our supporters!
+      </p>
     </div>
   );
 };
