@@ -12,7 +12,8 @@ const About = () => {
           <div className="py-8 px-4 mx-auto max-w-screen-lg lg:py-16 lg:px-6">
             <div className="max-w-screen-lg sm:text-lg">
               <p className="mb-4 font-light">
-                The Muskoka Philharmonic Orchestra is based in <span className="text-mpo-accent">Muskoka, Ontario</span>.
+                The Muskoka Philharmonic Orchestra is based in{' '}
+                <span className="text-mpo-accent">Muskoka, Ontario</span>.
               </p>
               <p className="mb-4 text-normal">
                 We perform a wide variety of music, and we are looking for new
@@ -37,9 +38,9 @@ const About = () => {
               <br />
               <h1 className="text-xl font-bold mb-2">Artistic Director</h1>
               <p className="mb-4 text-normal">
-                Artistic Director Alana Nuedling grew up in the Muskoka area
-                and has been active in the music and arts community from an
-                early age. She has a Performance Diploma (Cambrian College), an
+                Artistic Director Alana Nuedling grew up in the Muskoka area and
+                has been active in the music and arts community from an early
+                age. She has a Performance Diploma (Cambrian College), an
                 Honours BA in Music Education (Wilfrid Laurier University), and
                 a Bachelor of Education (Nipissing University).
               </p>
@@ -50,9 +51,23 @@ const About = () => {
                 throughout the years.
               </p>
               <p className="mb-4 text-normal">
+                Alana is part of the Board for the Huntsville Festival of the
+                Arts, part of the Education Committee, and a founding member and
+                co-organizer of the Huntsville Festival of Music.
+              </p>
+              <p className="mb-4 text-normal">
                 As a Music Director, Alana has led choirs, bands, pit
                 orchestras, and now is the Artistic Director/Co-Founder of the
-                newly formed Muskoka Philharmonic Orchestra.
+                newly formed Muskoka Philharmonic Orchestra (2022).
+              </p>
+              <p className="mb-4 text-normal">
+                Alana worked in mainstream education for 18 years before
+                breaking ties and freelancing; teaching music in private
+                education, providing individual and group music lessons,
+                providing individual and group tutoring for Math and Reading,
+                and running an Arts Based Summer Day Camp. She looks forward to
+                providing more opportunities to local youths through programming
+                which gives them opportunities for further success in the Arts.
               </p>
               <p className="mb-4 text-normal">
                 Alana is thrilled to be working with a passionate group of
