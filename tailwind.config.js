@@ -19,12 +19,6 @@ module.exports = {
         'mpo-bg-dark': '#151313',
         'mpo-semidark': '#2a2a2a',
       },
-      screens: {
-        sm: '480px',
-        md: '768px',
-        lg: '1024px',
-        xl: '1440px',
-      },
     },
   },
   plugins: [],
