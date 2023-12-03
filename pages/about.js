@@ -82,7 +82,7 @@ const About = () => {
               <br />
               <h1 className="text-xl font-bold mb-2">Board of Directors</h1>
               <span className="font-semibold">
-                Artistic Director: Alana Neudling
+                Artistic Director: Alana Nuedling
               </span>
               <br />
               <br />
