@@ -90,7 +90,7 @@ const About = () => {
               <br />
               <blockquote className="italic ml-4">
                 &ldquo;Being involved with music has been a lifelong passion. What
-                better way to be involved now that I'm retired from teaching
+                better way to be involved now that I&apos;m retired from teaching
                 than with an uplifting community venture! I am over-the-moon
                 excited to be helping to shape this new and harmonious orchestra
                 together with my older and newer friends. &lsquo;Music is life
@@ -140,7 +140,7 @@ const About = () => {
                 After attending the first concert of the Muskoka Philharmonic
                 Orchestra last June, I knew I wanted to be involved with this
                 very talented group of musicians in some capacity. As my musical
-                skills are limited, I'm happy to be part of this group as
+                skills are limited, I&apos;m happy to be part of this group as
                 treasurer.
               </blockquote>
             </div>
