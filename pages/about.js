@@ -1,11 +1,16 @@
+import Head from 'next/head';
 import { FullWidthContainer } from '@/components/layout/containers';
 import { AboutSplash } from '@/components/splash';
 
 const { default: Layout } = require('@/components/layout/layout');
 
 const About = () => {
+  const title = 'About the orchestra';
   return (
     <Layout>
+      <Head>
+        <title>{title}</title>
+      </Head>
       <FullWidthContainer className="bg-white text-mpo-bg-dark">
         <AboutSplash />
         <section className="bg-white">
