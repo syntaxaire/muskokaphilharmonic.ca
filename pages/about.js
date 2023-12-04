@@ -113,7 +113,7 @@ const About = () => {
               <br />
               <p className="ml-4">
                 Jennifer has an appreciation for musical performance that dates
-                back to her high school days, when she played the Bass Clarinet
+                back to her high school days, when she played bass clarinet
                 in the high school concert band, orchestra, and a small quintet.
                 Other than being part of a local choir she has not had the
                 opportunity to perform since then. So what better way to make an
@@ -137,11 +137,11 @@ const About = () => {
               <span className="font-semibold">Treasurer: Gerri Mar</span>
               <br />
               <blockquote className="italic ml-4">
-                After attending the first concert of the Muskoka Philharmonic
+                &ldquo;After attending the first concert of the Muskoka Philharmonic
                 Orchestra last June, I knew I wanted to be involved with this
                 very talented group of musicians in some capacity. As my musical
                 skills are limited, I&apos;m happy to be part of this group as
-                treasurer.
+                treasurer.&rdquo;
               </blockquote>
             </div>
           </div>
