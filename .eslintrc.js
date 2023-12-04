@@ -18,6 +18,8 @@ module.exports = {
     'react-hooks/rules-of-hooks': 'error',
     // warn about exhaustive dependencies for useEffect and similar hooks
     'react-hooks/exhaustive-deps': 'warn',
+    // suppress warnings about unescaped entities
+    'react/no-unescaped-entities': 'off',
   },
   settings: {
     react: {
