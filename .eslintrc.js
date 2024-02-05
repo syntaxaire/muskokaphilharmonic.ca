@@ -1,13 +1,14 @@
 module.exports = {
   extends: [
     'eslint:recommended',
+    'next',
     'next/core-web-vitals',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
     'plugin:jsx-a11y/recommended',
     'prettier',
   ],
-  plugins: ['jsx-a11y'],
+  plugins: ['jsx-a11y', 'unused-imports'],
   rules: {
     // suppress errors for missing 'import React' in files
     'react/react-in-jsx-scope': 'off',
@@ -21,7 +22,9 @@ module.exports = {
     'react-hooks/exhaustive-deps': 'warn',
     // suppress warnings about unescaped entities
     'react/no-unescaped-entities': 'off',
+    // all unused imports are errors
     'unused-imports/no-unused-imports': 'error',
+    // suggested configuration from https://www.npmjs.com/package/eslint-plugin-unused-imports
     'unused-imports/no-unused-vars': [
       'warn',
       {
