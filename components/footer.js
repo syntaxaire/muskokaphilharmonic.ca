@@ -20,10 +20,10 @@ const Footer = () => {
           <li>
             You can reach us at:{' '}
             <a
-              href="mailto:huntsvillemusicians@gmail.com"
+              href="mailto:info@muskokaphilharmonic.ca"
               className="hover:underline"
             >
-              huntsvillemusicians@gmail.com
+              info@muskokaphilharmonic.ca
             </a>
           </li>
         </ul>
