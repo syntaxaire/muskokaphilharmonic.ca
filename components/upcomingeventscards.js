@@ -55,7 +55,7 @@ const Event20240310 = () => {
         <br />
         Cash only tickets also available at the door.
       </p>
-      <p className="mt-4">
+      <p className="mt-4 text-xl font-bold">
         <Link
           className="underline"
           href="https://www.eventbrite.com/e/muskoka-philharmonic-orchestra-in-concert-whimsical-musings-tickets-822544311177?aff=oddtdtcreator"
