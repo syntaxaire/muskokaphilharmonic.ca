@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { FullWidthContainer } from '@/components/layout/containers';
-import { AboutSplash } from '@/components/splash';
+import { AboutSplash } from '@/components/removed/splash';
 
 const { default: Layout } = require('@/components/layout/layout');
 

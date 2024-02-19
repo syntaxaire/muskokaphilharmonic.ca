@@ -8,7 +8,7 @@ const SiteNavbar = () => {
     },
     {
       text: 'Contact',
-      href: 'mailto:huntsvillemusicians@gmail.com',
+      href: 'mailto:info@muskokaphilharmonic.ca',
     },
   ];
   return (
