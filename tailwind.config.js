@@ -19,6 +19,7 @@ module.exports = {
         'mpo-bg-dark': '#151313',
         'mpo-semidark': '#2a2a2a',
         'mpo-stem-green': '#80711d',
+        'mpo-whimsical': '#7C732a'
       },
     },
   },

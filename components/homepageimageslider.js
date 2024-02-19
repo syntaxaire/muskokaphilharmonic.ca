@@ -41,7 +41,7 @@ export const HomePageImageSlider = () => {
       }}
       navigation={true}
       modules={[Autoplay, Pagination, Navigation]}
-      className="mySwiper"
+      className="mySwiper cursor-pointer"
     >
       {images.map((image, index) => (
         <SwiperSlide key={index}>
