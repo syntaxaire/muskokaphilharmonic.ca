@@ -16,10 +16,6 @@ const TestimonialData = [
 const Testimonials = () => {
   return (
     <div className="py-8 px-4 mx-auto">
-      <div className="mx-auto text-center">
-        
-      </div>
-
       <div className="px-4 mx-auto lg:px-6">
         <div className="mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {TestimonialData.map((text) => (

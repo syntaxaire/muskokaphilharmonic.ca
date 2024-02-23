@@ -4,7 +4,7 @@ import { FullWidthContainer } from '@/components/layout/containers';
 
 const Layout = ({ children }) => {
   return (
-    <main className={`min-w-max min-h-screen bg-white`}>
+    <main className={`min-h-screen bg-white`}>
       <FullWidthContainer>
         <SiteNavbar />
       </FullWidthContainer>
