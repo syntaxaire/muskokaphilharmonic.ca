@@ -67,20 +67,37 @@ const Event20240310 = () => {
   );
 };
 
-const Event20240621 = () => {
+const Event20240622 = () => {
   return (
     <>
       <Image
-        src="/events/2024-06-21/strawberry_moon.jpg"
+        src="/events/2024-06-22/strawberry_moon.jpg"
         alt=""
         width={612}
         height={408}
         className="w-full"
       />
       <p className="text-4xl mt-8">Save the date!</p>
+
+      <p className="mt-4">
+        <span className="text-2xl">
+          <strong>Gravenhurst</strong>
+        </span>
+      </p>
       <p className="mt-2">
         <span className="text-xl">
-          <strong>Friday June 21</strong>
+          <strong>Saturday June 22, 2:00PM</strong>
+        </span>
+      </p>
+
+      <p className="mt-4">
+        <span className="text-2xl">
+          <strong>Huntsville</strong>
+        </span>
+      </p>
+      <p className="mt-2">
+        <span className="text-xl">
+          <strong>Sunday June 23, 4:00PM</strong>
         </span>
       </p>
     </>
@@ -91,7 +108,7 @@ export const UpcomingEventsCards = () => {
   const events = [
     Event20240309,
     Event20240310,
-    Event20240621,
+    Event20240622,
   ];
 
   return (
