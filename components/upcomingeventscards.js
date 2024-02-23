@@ -78,9 +78,26 @@ const Event20240622 = () => {
         className="w-full"
       />
       <p className="text-4xl mt-8">Save the date!</p>
+
+      <p className="mt-4">
+        <span className="text-2xl">
+          <strong>Gravenhurst</strong>
+        </span>
+      </p>
       <p className="mt-2">
         <span className="text-xl">
-          <strong>Saturday June 22</strong>
+          <strong>Saturday June 22, 2:00PM</strong>
+        </span>
+      </p>
+
+      <p className="mt-4">
+        <span className="text-2xl">
+          <strong>Huntsville</strong>
+        </span>
+      </p>
+      <p className="mt-2">
+        <span className="text-xl">
+          <strong>Sunday June 23, 4:00PM</strong>
         </span>
       </p>
     </>
