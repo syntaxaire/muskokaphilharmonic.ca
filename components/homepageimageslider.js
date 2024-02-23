@@ -37,7 +37,7 @@ export const HomePageImageSlider = () => {
         disableOnInteraction: false,
       }}
       pagination={{
-        clickable: true
+        clickable: true,
       }}
       navigation={true}
       modules={[Autoplay, Pagination, Navigation]}
@@ -46,11 +46,11 @@ export const HomePageImageSlider = () => {
       {images.map((image, index) => (
         <SwiperSlide key={index}>
           <Image
-            src={image.src}
-            alt={image.alt}
-            width={image.width}
-            height={image.height}
-          />
+          src={image.src}
+          alt={image.alt}
+          width={image.width}
+          height={image.height}
+        />
         </SwiperSlide>
       ))}
     </Swiper>
