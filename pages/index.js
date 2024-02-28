@@ -31,7 +31,7 @@ export default function Home() {
 
       <FullWidthContainer className="text-mpo-bg-dark mt-16">
         <h2 className="text-4xl mb-8">News</h2>
-        <p>The Muskoka Philharmonic Orchestra's Artistic Director, Alana Neudling,
+        <p>The Muskoka Philharmonic Orchestra's Artistic Director, Alana Nuedling,
         recently appeared on Hunter's Bay Radio on ARTS R US.</p>
         <p>Hear Alana's interview with hosts Karen Cassian and Noreen Mitchell:</p>
         <iframe
