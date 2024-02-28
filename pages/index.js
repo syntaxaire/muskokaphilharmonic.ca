@@ -62,6 +62,7 @@ export default function Home() {
             href="https://soundcloud.com/hunters-bay-radio"
             title="Hunters Bay Radio"
             target="_blank"
+            rel="noopener noreferrer"
             style={{ color: '#cccccc', textDecoration: 'none' }}
           >
             Hunters Bay Radio
@@ -71,6 +72,7 @@ export default function Home() {
             href="https://soundcloud.com/hunters-bay-radio/arts-r-us-alana-nuedling-educator-music-teacher-and-director-feb-25-2024"
             title="ARTS R US Alana Nuedling Educator Music Teacher And Director FEB 25 2024"
             target="_blank"
+            rel="noopener noreferrer"
             style={{ color: '#cccccc', textDecoration: 'none' }}
           >
             ARTS R US Alana Nuedling Educator Music Teacher And Director FEB 25
