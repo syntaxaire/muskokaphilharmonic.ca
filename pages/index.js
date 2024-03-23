@@ -20,12 +20,20 @@ export default function Home() {
 
       <FullWidthContainer className="text-mpo-bg-dark mt-16">
         <h2 className="text-4xl mb-8">Upcoming events</h2>
+        <span className="rounded text-2xl mb-8 p-2">
+          Get tickets for our next performances in:{' '}
         <Link
-          href="https://www.eventbrite.com/e/muskoka-philharmonic-orchestra-in-concert-whimsical-musings-tickets-822544311177?aff=oddtdtcreator"
-          className="rounded text-2xl mb-8 p-2 cursor-pointer underline"
+          href="https://www.eventbrite.ca/e/muskoka-philharmonic-orchestra-in-concert-strawberry-moon-gravenhurst-tickets-858498089897?aff=ebdssbdestsearch"
+          className="cursor-pointer underline"
         >
-          Get tickets for our next performance
+          Gravenhurst
+        </Link> or <Link
+          href="https://www.eventbrite.ca/e/muskoka-philharmonic-orchestra-in-concert-strawberry-moon-huntsville-tickets-858520356497?aff=ebdssbdestsearch"
+          className="cursor-pointer underline"
+        >
+          Huntsville
         </Link>
+        </span>
         <UpcomingEventsCards />
       </FullWidthContainer>
 
