@@ -25,7 +25,7 @@ const Event20240623 = () => {
   return (
     <>
       <Image
-        src="/events/2024-06-22/strawberry_moon.jpg"
+        src="/events/2024-06-23/strawberry_moon.jpg"
         alt=""
         width={612}
         height={408}
@@ -74,7 +74,7 @@ const Event20240622 = () => {
   return (
     <>
       <Image
-        src="/events/2024-06-22/strawberry_moon.jpg"
+        src="/events/2024-06-23/strawberry_moon.jpg"
         alt=""
         width={612}
         height={408}
