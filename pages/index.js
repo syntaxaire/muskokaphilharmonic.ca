@@ -1,10 +1,10 @@
-import Head from 'next/head';
-import Layout from '@/components/layout/layout';
 import { FullWidthContainer } from '@/components/layout/containers';
-import Testimonials from '@/components/testimonials';
+import Head from 'next/head';
 import { HomePageImageSlider } from '@/components/homepageimageslider';
-import { UpcomingEventsCards } from '@/components/upcomingeventscards';
+import Layout from '@/components/layout/layout';
 import Link from 'next/link';
+import Testimonials from '@/components/testimonials';
+import { UpcomingEventsCards } from '@/components/upcomingeventscards';
 
 export default function Home() {
   const title = 'Muskoka Philharmonic Orchestra';
@@ -19,8 +19,8 @@ export default function Home() {
       </FullWidthContainer>
 
       <FullWidthContainer className="text-mpo-bg-dark mt-16">
-        <h2 className="text-4xl mb-8">Upcoming events</h2>
-        <span className="rounded text-2xl mb-8 p-2">
+        <h1 className="mb-8">Upcoming events</h1>
+        <span className="rounded mb-8 p-2">
           Get tickets for our next performances in:{' '}
         <Link
           href="https://www.eventbrite.ca/e/muskoka-philharmonic-orchestra-in-concert-strawberry-moon-gravenhurst-tickets-858498089897?aff=ebdssbdestsearch"
@@ -38,9 +38,13 @@ export default function Home() {
       </FullWidthContainer>
 
       <FullWidthContainer className="text-mpo-bg-dark mt-16">
-        <h2 className="text-4xl mb-8">News</h2>
+        <h1 className="mb-8">News</h1>
+        <h3 className='font-bold'>March 11, 2024</h3>
+        <p>MuskokaTODAY.com has published <Link className='mpo-link' href='https://muskokatoday.com/2024/03/muskoka-philharmonics-music-entertaining-accessible-in-two-weekend-concerts-that-included-coldplay/'>a review</Link> of our Whimsical Musings concert on March 10!</p>
+        <br />
+        <h3 className='font-bold'>February 2, 2024</h3>
         <p>The Muskoka Philharmonic Orchestra's Artistic Director, Alana Nuedling,
-        recently appeared on Hunter's Bay Radio on ARTS R US.</p>
+        appeared on Hunter's Bay Radio on <Link className='mpo-link' href='https://muskokaradio.com/show/artsrus'>ARTS R US</Link>.</p><br />
         <p>Hear Alana's interview with hosts Karen Cassian and Noreen Mitchell:</p>
         <iframe
           className='mt-4'
