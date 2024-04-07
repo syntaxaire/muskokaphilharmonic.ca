@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme');
 module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -20,6 +21,10 @@ module.exports = {
         'mpo-semidark': '#2a2a2a',
         'mpo-stem-green': '#80711d',
         'mpo-whimsical': '#7C732a'
+      },
+      fontFamily: {
+        'mpo-title': ['DM Serif Text', ...defaultTheme.fontFamily.serif],
+        'mpo-body': ['', ...defaultTheme.fontFamily.sans]
       },
     },
   },

@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -19,20 +21,23 @@ body {
 }
 
 @layer base {
+  html {
+    @apply font-mpo-body
+  }
   h1 {
-    @apply text-4xl lg:text-7xl font-black;
+    @apply text-4xl font-black font-mpo-title;
   }
   h2 {
-    @apply text-2xl lg:text-4xl font-bold;
+    @apply text-2xl font-bold font-mpo-title;
   }
   h3 {
-    @apply text-xl lg:text-3xl font-bold;
+    @apply text-xl font-bold font-mpo-title;
   }
   h4 {
-    @apply text-xl font-bold;
+    @apply text-xl font-bold font-mpo-title;
   }
-  h4 {
-    @apply text-lg font-bold;
+  h5 {
+    @apply text-lg font-bold font-mpo-title;
   }
 }
 

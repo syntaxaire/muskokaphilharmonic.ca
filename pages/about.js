@@ -1,6 +1,6 @@
-import Head from 'next/head';
 import { FullWidthContainer } from '@/components/layout/containers';
-import { AboutSplash } from '@/components/removed/splash';
+import Head from 'next/head';
+import Image from 'next/image';
 
 const { default: Layout } = require('@/components/layout/layout');
 
@@ -12,9 +12,8 @@ const About = () => {
         <title>{title}</title>
       </Head>
       <FullWidthContainer className="bg-white text-mpo-bg-dark">
-        <AboutSplash />
         <section className="bg-white">
-          <div className="py-8 px-4 mx-auto max-w-screen-lg lg:py-16 lg:px-6">
+          <div className="py-8 px-4 mx-auto max-w-screen-lg lg:px-6">
             <div className="max-w-screen-lg">
               <h1 className="text-xl font-bold mb-2">About the Orchestra</h1>
               <p className="mb-4 font-light">
@@ -30,15 +29,19 @@ const About = () => {
                 rehearse in Huntsville and perform in various locations
                 throughout Muskoka.
               </p>
-              <p className="mb-4">
-                We are a growing orchestra, and new members are welcome!
-              </p>
             </div>
 
-            <div className="max-w-screen-lg mt-8">
-              <h1 className="text-xl font-bold mb-2">
-                Artistic Director: Alana Nuedling
-              </h1>
+            <h1 className="text-xl font-bold mt-6">
+              Artistic Director: Alana Nuedling
+            </h1>
+            <div className="max-w-screen-lg mt-6">
+              <Image
+                src="/images/alana.jpg"
+                alt="Artistic Director Alana Nuedling"
+                width={828}
+                height={715}
+                className='float-left mr-6 mb-6 w-full md:w-1/3'
+              />
               <p className="mb-4 text-normal">
                 Alana Nuedling grew up in the Muskoka area and has been active
                 in the music and arts community from an early age. She has a
@@ -78,7 +81,7 @@ const About = () => {
               </p>
             </div>
 
-            <div className="max-w-screen-lg mt-8">
+            <div className="max-w-screen-lg mt-6">
               <br />
               <h1 className="text-xl font-bold mb-2">Board of Directors</h1>
               <span className="font-semibold">
@@ -89,12 +92,12 @@ const About = () => {
               <span className="font-semibold">Co-Chair: Nancy Gibson</span>
               <br />
               <blockquote className="italic ml-4">
-                &ldquo;Being involved with music has been a lifelong passion. What
-                better way to be involved now that I&apos;m retired from teaching
-                than with an uplifting community venture! I am over-the-moon
-                excited to be helping to shape this new and harmonious orchestra
-                together with my older and newer friends. &lsquo;Music is life
-                itself.&rsquo; (Louis Armstrong)&rdquo;
+                &ldquo;Being involved with music has been a lifelong passion.
+                What better way to be involved now that I&apos;m retired from
+                teaching than with an uplifting community venture! I am
+                over-the-moon excited to be helping to shape this new and
+                harmonious orchestra together with my older and newer friends.
+                &lsquo;Music is life itself.&rsquo; (Louis Armstrong)&rdquo;
               </blockquote>
               <br />
               <span className="font-semibold">Co-Chair: Michael Gibson</span>
@@ -113,8 +116,8 @@ const About = () => {
               <br />
               <p className="ml-4">
                 Jennifer has an appreciation for musical performance that dates
-                back to her high school days, when she played bass clarinet
-                in the high school concert band, orchestra, and a small quintet.
+                back to her high school days, when she played bass clarinet in
+                the high school concert band, orchestra, and a small quintet.
                 Other than being part of a local choir she has not had the
                 opportunity to perform since then. So what better way to make an
                 impact than bringing her organizing and event planning skills to
@@ -137,11 +140,11 @@ const About = () => {
               <span className="font-semibold">Treasurer: Gerri Mar</span>
               <br />
               <blockquote className="italic ml-4">
-                &ldquo;After attending the first concert of the Muskoka Philharmonic
-                Orchestra last June, I knew I wanted to be involved with this
-                very talented group of musicians in some capacity. As my musical
-                skills are limited, I&apos;m happy to be part of this group as
-                treasurer.&rdquo;
+                &ldquo;After attending the first concert of the Muskoka
+                Philharmonic Orchestra last June, I knew I wanted to be involved
+                with this very talented group of musicians in some capacity. As
+                my musical skills are limited, I&apos;m happy to be part of this
+                group as treasurer.&rdquo;
               </blockquote>
             </div>
           </div>

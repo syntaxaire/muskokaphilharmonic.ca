@@ -18,7 +18,7 @@ export default function Home() {
         <HomePageImageSlider />
       </FullWidthContainer>
 
-      <FullWidthContainer className="text-mpo-bg-dark mt-16">
+      <FullWidthContainer className="font-dm-serif text-mpo-bg-dark mt-16">
         <h1 className="mb-8">Upcoming events</h1>
         <span className="rounded mb-8 p-2">
           Get tickets for our next performances in:{' '}

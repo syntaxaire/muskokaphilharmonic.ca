@@ -1,13 +1,5 @@
-export const FullWidthContainer = ({ className = '', bgPattern, children }) => {
+export const FullWidthContainer = ({ className = '', children }) => {
   return (
-    <div
-      className={
-        `w-full ${
-          bgPattern ? 'bg-pattern bg-gray-800 bg-cover bg-blend-multiply ' : ''
-        }` + className
-      }
-    >
-      <div className={`container mx-auto ${className}`}>{children}</div>
-    </div>
+    <div className={`container max-w-screen-xl mx-auto px-[15px] md:px-[30px] xl:px-[90px] ${className}`}>{children}</div>
   );
 };
