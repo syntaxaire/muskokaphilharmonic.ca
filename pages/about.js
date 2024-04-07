@@ -16,7 +16,7 @@ const About = () => {
           <div className="py-8 px-4 mx-auto max-w-screen-lg lg:px-6">
             <div className="max-w-screen-lg">
               <h1 className="text-xl font-bold mb-2">About the Orchestra</h1>
-              <p className="mb-4 font-light">
+              <p className="mb-4">
                 The{' '}
                 <span className="font-semibold">
                   Muskoka Philharmonic Orchestra
