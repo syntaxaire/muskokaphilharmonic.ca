@@ -106,6 +106,14 @@ const Event20240622 = () => {
           Click here for advance tickets
         </Link>
       </p>
+      <p className="mt-4 text-xl font-bold">
+        <Link
+          className="underline"
+          href="/events/2024-06-23/strawberry_moon_poster.pdf"
+        >
+          Download poster
+        </Link>
+      </p>
     </>
   );
 };
