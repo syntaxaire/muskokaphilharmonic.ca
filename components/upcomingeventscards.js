@@ -60,7 +60,7 @@ const Event20240623 = () => {
       <p className="mt-4 text-xl font-bold">
         <Link
           className="underline"
-          href="/events/2024-06-23/mpo-2024-06-23-poster.png"
+          href="/events/2024-06-23/strawberry_moon_poster.pdf"
         >
           Download poster
         </Link>
