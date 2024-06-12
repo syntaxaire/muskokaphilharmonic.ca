@@ -37,7 +37,7 @@ const Event20240623 = () => {
       </p>
       <p className="mt-2">
         <span className="text-xl font-bold">
-          Sunday June 23th 4-6pm
+          Sunday June 23rd 4-6pm
         </span>
         <br />
         Trinity United Church, 33 Main St. E
@@ -86,7 +86,7 @@ const Event20240622 = () => {
       </p>
       <p className="mt-2">
         <span className="text-xl font-bold">
-          Saturday June 22th 2-4pm
+          Saturday June 22nd 2-4pm
         </span>
         <br />
         Trinity United Church, 290 Muskoka Road North
