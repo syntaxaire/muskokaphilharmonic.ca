@@ -4,7 +4,7 @@ import { HomePageImageSlider } from '@/components/homepageimageslider';
 import Layout from '@/components/layout/layout';
 import Link from 'next/link';
 import Testimonials from '@/components/testimonials';
-import { UpcomingEventsCards } from '@/components/upcomingeventscards';
+// import { UpcomingEventsCards } from '@/components/upcomingeventscards';
 
 export default function Home() {
   const title = 'Muskoka Philharmonic Orchestra';
@@ -18,6 +18,16 @@ export default function Home() {
         <HomePageImageSlider />
       </FullWidthContainer>
 
+      { /* Summer upcoming events section: */ }
+      <FullWidthContainer className="font-dm-serif text-mpo-bg-dark mt-16">
+        <h1 className="mb-8">Upcoming events</h1>
+        The orchestra is currently on summer break. Check back in late summer for our fall concert schedule!
+
+        <h2>Reading sessions</h2>
+        <p>Interested in playing with the orchestra? Join us for a reading session - dates to be announced soon!</p>        
+      </FullWidthContainer>
+
+      { /* Regular upcoming events section:
       <FullWidthContainer className="font-dm-serif text-mpo-bg-dark mt-16">
         <h1 className="mb-8">Upcoming events</h1>
         <span className="rounded mb-8 p-2">
@@ -36,6 +46,7 @@ export default function Home() {
         </span>
         <UpcomingEventsCards />
       </FullWidthContainer>
+      */ }
 
       <FullWidthContainer className="text-mpo-bg-dark mt-16">
         <h1 className="mb-8">News</h1>
