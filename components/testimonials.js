@@ -1,10 +1,13 @@
 const TestimonialBox = ({ text }) => {
   return (
-    <div className="p-4 shadow-md border rounded text-sm">&ldquo;{text}&rdquo;
+    <div className="p-4 shadow-md border rounded text-sm">
+      &ldquo;{text}&rdquo;
     </div>
   );
 };
 const TestimonialData = [
+  'An absolutely wonderful concert, an exquisite experience! Gorgeous music, played and conducted by such skilled musicians…and so enjoyed the focus on young talent! MPO, a gem indeed! Thank you!',
+  'Bravo! Muskoka Philharmonic A rare and special concert! Huntsville we are blessed by such brilliant musicians!',
   'My ears are still reminding me of the enchanting music I heard Sunday afternoon.\nTo see and hear the audience’s enthusiasm was an absolute joy.',
   'Everyone was truly exceptional.',
   'Bravo to the Muskoka Philharmonic orchestra for a wonderful performance today.',
