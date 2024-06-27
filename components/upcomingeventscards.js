@@ -1,4 +1,4 @@
-// import Image from 'next/image';
+import Image from 'next/image';
 import Link from 'next/link';
 
 /* const OptionalHeader2024 = () => {
@@ -45,36 +45,29 @@ const Event2024ReadingSessions = () => {
   }
   return (
     <>
-      The orchestra is currently on summer break.
-      <br />
-      <br />
       <h2>Reading sessions</h2>
       <p>
         Interested in playing with the orchestra? Come to one of our summer
-        music reading sessions! Reach out via email at{' '}
-        <a href="mailto:info@muskokaphilharmonic.ca" className="underline">
-          info@muskokaphilharmonic.ca
-        </a>{' '}
-        for more information.
-        <br />
-        <br />
+        music reading sessions!
       </p>
+      <Image
+        src="/events/2024/reading-sessions.jpg"
+        alt=""
+        width={612}
+        height={408}
+        className="w-full my-4"
+      />
       <p className="mt-4">
-        Tuesday, July 9, 7-9PM,{' '}
         <Link
           className="underline"
           href="https://maps.app.goo.gl/V2ciPzT9nErkvWAUA"
         >
-          Utterson Community Hall
+          Utterson Community Hall on Google Maps
         </Link>
       </p>
       <p className="mt-4">
-        Tuesday, August 6, 7-9PM,{' '}
-        <Link
-          className="underline"
-          href="https://maps.app.goo.gl/V2ciPzT9nErkvWAUA"
-        >
-          Utterson Community Hall
+        <Link className="underline" href="mailto:info@muskokaphilharmonic.ca">
+          Email info@muskokaphilharmonic.ca
         </Link>
       </p>
     </>
