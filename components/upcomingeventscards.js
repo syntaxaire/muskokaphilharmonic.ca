@@ -1,11 +1,29 @@
-import Image from 'next/image';
+// import Image from 'next/image';
 import Link from 'next/link';
 
+/* const OptionalHeader2024 = () => {
+  <FullWidthContainer className="font-dm-serif text-mpo-bg-dark mt-16">
+    <span className="rounded mb-8 p-2">
+      Get tickets for our next performances in:{' '}
+      <Link
+        href="https://www.eventbrite.ca/e/muskoka-philharmonic-orchestra-in-concert-strawberry-moon-gravenhurst-tickets-858498089897?aff=ebdssbdestsearch"
+        className="cursor-pointer underline"
+      >
+        Gravenhurst
+      </Link>{' '}
+      or{' '}
+      <Link
+        href="https://www.eventbrite.ca/e/muskoka-philharmonic-orchestra-in-concert-strawberry-moon-huntsville-tickets-858520356497?aff=ebdssbdestsearch"
+        className="cursor-pointer underline"
+      >
+        Huntsville
+      </Link>
+    </span>
+  </FullWidthContainer>;
+}; */
+
 export const UpcomingEventsCards = () => {
-  const events = [
-    Event20240622,
-    Event20240623,
-  ];
+  const events = [Event2024ReadingSessions];
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -20,104 +38,138 @@ export const UpcomingEventsCards = () => {
 
 // Push old cards down the file as they age, and copy from them as needed
 
-// Strawberry Moon Huntsville, June 2024
-const Event20240623 = () => {
+// Reading sessions, July/August 2024
+const Event2024ReadingSessions = () => {
+  {
+    /* Summer upcoming events section: */
+  }
   return (
     <>
-      <Image
-        src="/events/2024-06-23/strawberry_moon.jpg"
-        alt=""
-        width={612}
-        height={408}
-        className="w-full"
-      />
-      <p className="text-4xl mt-2">Strawberry Moon</p>
-      <p className="mt-2 text-xl font-bold">
-        Huntsville
-      </p>
-      <p className="mt-2">
-        <span className="text-xl font-bold">
-          Sunday June 23rd 4-6pm
-        </span>
+      The orchestra is currently on summer break.
+      <br />
+      <br />
+      <h2>Reading sessions</h2>
+      <p>
+        Interested in playing with the orchestra? Come to one of our summer
+        music reading sessions! Reach out via email at{' '}
+        <a href="mailto:info@muskokaphilharmonic.ca" className="underline">
+          info@muskokaphilharmonic.ca
+        </a>{' '}
+        for more information.
         <br />
-        Trinity United Church, 33 Main St. E
-      </p>
-      <p className="mt-2">
-        Tickets $20 adults, $10 students, free under 4.
         <br />
-        Advance tickets qualify for a draw prize.
-        <br />
-        Cash only tickets also available at the door.
       </p>
-      <p className="mt-4 text-xl font-bold">
+      <p className="mt-4">
+        Tuesday, July 9, 7-9PM,{' '}
         <Link
           className="underline"
-          href="https://www.eventbrite.ca/e/muskoka-philharmonic-orchestra-in-concert-strawberry-moon-huntsville-tickets-858520356497?aff=ebdssbdestsearch"
+          href="https://maps.app.goo.gl/V2ciPzT9nErkvWAUA"
         >
-          Click here for advance tickets
+          Utterson Community Hall
         </Link>
       </p>
-      <p className="mt-4 text-xl font-bold">
+      <p className="mt-4">
+        Tuesday, August 6, 7-9PM,{' '}
         <Link
           className="underline"
-          href="/events/2024-06-23/strawberry_moon_poster.pdf"
+          href="https://maps.app.goo.gl/V2ciPzT9nErkvWAUA"
         >
-          Download poster
+          Utterson Community Hall
         </Link>
       </p>
     </>
   );
 };
+
+// Strawberry Moon Huntsville, June 2024
+// const Event20240623 = () => {
+//   return (
+//     <>
+//       <Image
+//         src="/events/2024-06-23/strawberry_moon.jpg"
+//         alt=""
+//         width={612}
+//         height={408}
+//         className="w-full"
+//       />
+//       <p className="text-4xl mt-2">Strawberry Moon</p>
+//       <p className="mt-2 text-xl font-bold">Huntsville</p>
+//       <p className="mt-2">
+//         <span className="text-xl font-bold">Sunday June 23rd 4-6pm</span>
+//         <br />
+//         Trinity United Church, 33 Main St. E
+//       </p>
+//       <p className="mt-2">
+//         Tickets $20 adults, $10 students, free under 4.
+//         <br />
+//         Advance tickets qualify for a draw prize.
+//         <br />
+//         Cash only tickets also available at the door.
+//       </p>
+//       <p className="mt-4 text-xl font-bold">
+//         <Link
+//           className="underline"
+//           href="https://www.eventbrite.ca/e/muskoka-philharmonic-orchestra-in-concert-strawberry-moon-huntsville-tickets-858520356497?aff=ebdssbdestsearch"
+//         >
+//           Click here for advance tickets
+//         </Link>
+//       </p>
+//       <p className="mt-4 text-xl font-bold">
+//         <Link
+//           className="underline"
+//           href="/events/2024-06-23/strawberry_moon_poster.pdf"
+//         >
+//           Download poster
+//         </Link>
+//       </p>
+//     </>
+//   );
+// };
 
 // Strawberry Moon Gravenhurst, June 2024
-const Event20240622 = () => {
-  return (
-    <>
-      <Image
-        src="/events/2024-06-23/strawberry_moon.jpg"
-        alt=""
-        width={612}
-        height={408}
-        className="w-full"
-      />
-      <p className="text-4xl mt-2">Strawberry Moon</p>
-      <p className="mt-2 text-xl font-bold">
-        Gravenhurst
-      </p>
-      <p className="mt-2">
-        <span className="text-xl font-bold">
-          Saturday June 22nd 2-4pm
-        </span>
-        <br />
-        Trinity United Church, 290 Muskoka Road North
-      </p>
-      <p className="mt-2">
-        Tickets $20 adults, $10 students, free under 4.
-        <br />
-        Advance tickets qualify for a draw prize.
-        <br />
-        Cash only tickets also available at the door.
-      </p>
-      <p className="mt-4 text-xl font-bold">
-        <Link
-          className="underline"
-          href="https://www.eventbrite.ca/e/muskoka-philharmonic-orchestra-in-concert-strawberry-moon-gravenhurst-tickets-858498089897?aff=ebdssbdestsearch"
-        >
-          Click here for advance tickets
-        </Link>
-      </p>
-      <p className="mt-4 text-xl font-bold">
-        <Link
-          className="underline"
-          href="/events/2024-06-23/strawberry_moon_poster.pdf"
-        >
-          Download poster
-        </Link>
-      </p>
-    </>
-  );
-};
-
+// const Event20240622 = () => {
+//   return (
+//     <>
+//       <Image
+//         src="/events/2024-06-23/strawberry_moon.jpg"
+//         alt=""
+//         width={612}
+//         height={408}
+//         className="w-full"
+//       />
+//       <p className="text-4xl mt-2">Strawberry Moon</p>
+//       <p className="mt-2 text-xl font-bold">Gravenhurst</p>
+//       <p className="mt-2">
+//         <span className="text-xl font-bold">Saturday June 22nd 2-4pm</span>
+//         <br />
+//         Trinity United Church, 290 Muskoka Road North
+//       </p>
+//       <p className="mt-2">
+//         Tickets $20 adults, $10 students, free under 4.
+//         <br />
+//         Advance tickets qualify for a draw prize.
+//         <br />
+//         Cash only tickets also available at the door.
+//       </p>
+//       <p className="mt-4 text-xl font-bold">
+//         <Link
+//           className="underline"
+//           href="https://www.eventbrite.ca/e/muskoka-philharmonic-orchestra-in-concert-strawberry-moon-gravenhurst-tickets-858498089897?aff=ebdssbdestsearch"
+//         >
+//           Click here for advance tickets
+//         </Link>
+//       </p>
+//       <p className="mt-4 text-xl font-bold">
+//         <Link
+//           className="underline"
+//           href="/events/2024-06-23/strawberry_moon_poster.pdf"
+//         >
+//           Download poster
+//         </Link>
+//       </p>
+//     </>
+//   );
+// };
 
 // Whimsical Musings Huntsville, March 2024
 // const Event20240310 = () => {
